@@ -40,6 +40,6 @@ jobs:
 
         git add k8s/app-deployment.yaml
 
-        git commit -m "Updated image tag" || echo "No changes to commit"
+        git commit -m "Updated image tag" || echo "No changes"
 
         git push
